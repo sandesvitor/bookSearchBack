@@ -1,9 +1,11 @@
 from flask_restful import Resource, reqparse
 import requests
-from os import environ
+import os
 
 
 #api_key = 'AIzaSyBxg3xDmKIp1IsX59-R_2TQoqF1IOXCou4'
+api_key = os.environ.get('API_KEY')
+
 
 class Books(Resource):
     def get(self, author_name):
