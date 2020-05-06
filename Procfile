@@ -1,1 +1,1 @@
-web: gunicorn bookSearchBack.getAuthor: application --log-file=-
+web: gunicorn --chdir bookSearchBack getAuthor:app 
