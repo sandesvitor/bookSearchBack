@@ -1,1 +1,1 @@
-web: gunicorn getAuthor:searchtitles-backend 
+web: gunicorn getAuthor:app
