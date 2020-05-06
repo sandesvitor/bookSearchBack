@@ -1,1 +1,1 @@
-web: gunicorn app:getAuthor
+web: gunicorn bookSearchBack.getAuthor: application --log-file=-
