@@ -1,1 +1,1 @@
-web: gunicorn --chdir bookSearchBack getAuthor:app 
+web: gunicorn getAuthor:searchtitles-backend 
