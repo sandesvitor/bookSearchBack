@@ -1,1 +1,1 @@
-web: python getAuthor.py
+web: gunicorn app:getAuthor
